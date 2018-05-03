@@ -1,0 +1,1 @@
+# Good-Sense-Accordion-Template
