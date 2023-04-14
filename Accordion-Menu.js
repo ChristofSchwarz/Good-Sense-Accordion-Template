@@ -52,17 +52,23 @@ function ( qlik, template ) {
 				ref: 'setting_1_1_2',
 				defaultValue: 'left',
 				items: [{
-					value: 'left',
-					component: 'icon-item',
-					icon: 'M'
-				},{
-					value: 'center',
-					icon: 'O',
-					component: 'icon-item'
-				},{
-					value: 'right',
-					icon: 'N',
-					component: 'icon-item'
+					component: "icon-item",
+					icon: "align_left",
+					labelPlacement: "bottom",
+					value: "left",
+					translation: "properties.dock.left"
+				    }, {
+					component: "icon-item",
+					icon: "align_center",
+					labelPlacement: "bottom",
+					value: "center",
+					translation: "Common.Center"
+				    }, {
+					component: "icon-item",
+					icon: "align_right",
+					labelPlacement: "bottom",
+					value: "right",
+					translation: "properties.dock.right"
 				}]
 			}
 		]
